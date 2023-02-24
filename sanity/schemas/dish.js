@@ -26,6 +26,9 @@ export default defineType({
       name: 'image',
       title: 'Dish image',
       type: 'image',
+      options: {
+        hotspot: true
+      }
     }),
   ],
 })
